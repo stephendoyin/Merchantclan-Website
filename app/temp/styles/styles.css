@@ -16258,6 +16258,7 @@ p {
     font-weight: 700 !important;
     font-size: 0.9rem !important;
     letter-spacing: 0.1rem;
+    padding: 0.8rem 1.6rem;
   }
 
 .c-header__inner {
@@ -16648,7 +16649,7 @@ p {
   }
 
 .slider__item img {
-      max-height: 27px;
+      max-height: 23px;
       width: unset;
     }
 

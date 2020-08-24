@@ -12,6 +12,7 @@
     font-weight: 700 !important;
     font-size: 0.9rem !important;
     letter-spacing: 0.1rem;
+    padding: 0.8rem 1.6rem;
   }
   &__inner {
     width: 100%;
