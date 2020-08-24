@@ -1,0 +1,20 @@
+.slider {
+  padding: 4.5rem 0;
+  background: #3476ad;
+  &__item {
+    border-radius: 6px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    img {
+      max-height: 27px;
+      width: unset;
+    }
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+  }
+}

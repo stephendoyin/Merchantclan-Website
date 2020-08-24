@@ -1,0 +1,16 @@
+.strip {
+  background: url(../../assets/images/strip.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 9px;
+  background-attachment: fixed;
+  padding: 4rem 1rem;
+  &__shield-img {
+    max-width: 150px;
+  }
+  &__title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+}

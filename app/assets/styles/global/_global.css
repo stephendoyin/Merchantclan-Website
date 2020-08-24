@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #5a7184;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+  font-family: "Gilroy", sans-serif;
+  background: #fff;
+  min-height: 100vh;
+  font-style: normal;
+}
+p {
+  font-size: 1.125rem;
+  color: #5a7184;
+  line-height: 1.85rem;
+}
+.link {
+  white-space: nowrap;
+}
+
+.c-bold {
+  font-weight: 700 !important;
+}
+.c-semi-bold {
+  font-weight: 600 !important;
+}
+
+.c-light {
+  font-weight: 300 !important;
+}
+.c-title {
+  /* font-size: 2.5rem; */
+  color: var(--dark-blue);
+
+  &--small {
+    font-size: 1.125rem;
+    color: var(--dark-blue);
+  }
+}
+
+.text-cus-col {
+  color: var(--dark-blue) !important;
+}
+
+.c-normal {
+  font-weight: 400;
+}
+
+.sub-text {
+  font-size: 1.125rem;
+  max-width: 500px;
+}
+
+.pattern-img {
+  top: -60px;
+  left: -45px;
+  max-width: 300px;
+}
+
+.c-title--small {
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-bottom: 1.7rem;
+  letter-spacing: 0.15625rem;
+}
+
+.c-title {
+  font-weight: 700;
+  font-size: 1.9375rem;
+  line-height: 3rem;
+
+  letter-spacing: -0.5px;
+  padding-bottom: 1rem;
+  color: #1b4a71;
+}
+
+.btn-custom {
+  padding: 1.1rem 2rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.18rem;
+  background: #2f73ab;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1420px) {
+  .container {
+    max-width: 1240px;
+  }
+}

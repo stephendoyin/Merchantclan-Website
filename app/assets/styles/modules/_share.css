@@ -1,0 +1,33 @@
+.flexed {
+  &__container {
+    position: relative;
+    z-index: 3;
+  }
+  &__section {
+    padding: 7rem 0;
+  }
+  &__item-img-container {
+    img {
+      max-width: 544px;
+      border-radius: 6px;
+      width: 100%;
+    }
+  }
+
+  &__ellipse {
+    right: 0;
+    bottom: 0;
+    max-width: 30%;
+    z-index: 0;
+
+    &--two {
+      max-width: 60%;
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .nav__item-img-container img {
+    width: 90%;
+  }
+}
