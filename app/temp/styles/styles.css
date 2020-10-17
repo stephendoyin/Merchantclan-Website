@@ -15970,6 +15970,7 @@ p {
 .c-title--small {
     font-size: 1.125rem;
     color: var(--dark-blue);
+    font-weight: 600;
   }
 
 .text-cus-col {
@@ -15986,13 +15987,13 @@ p {
 }
 
 .pattern-img {
-  top: -60px;
-  left: -45px;
+  top: 19px;
+  left: -3px;
   max-width: 300px;
 }
 
 .c-title--small {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.875rem;
   padding-bottom: 1.7rem;
   letter-spacing: 0.15625rem;
@@ -16000,8 +16001,8 @@ p {
 
 .c-title {
   font-weight: 700;
-  font-size: 1.9375rem;
-  line-height: 3rem;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
 
   letter-spacing: -0.5px;
   padding-bottom: 1rem;
@@ -16009,10 +16010,12 @@ p {
 }
 
 .btn-custom {
-  padding: 1.1rem 2rem;
+  padding: 0.9rem 2rem;
   font-size: 0.95rem;
-  letter-spacing: 0.18rem;
-  background: #2f73ab;
+  letter-spacing: 0.04rem;
+  background: #f2994a;
+  border: #f2994a;
+  border-radius: 60px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -16021,6 +16024,10 @@ p {
   .container {
     max-width: 1240px;
   }
+}
+
+.logo {
+  max-width: 130px;
 }
 
 /**
@@ -16253,12 +16260,13 @@ p {
 }
 
 .c-header__btn {
-    background: #fff;
+    background: #f2994a;
     color: #3073ac !important;
     font-weight: 700 !important;
     font-size: 0.9rem !important;
     letter-spacing: 0.1rem;
-    padding: 0.8rem 1.6rem;
+    padding: 0.6rem 1.6rem;
+    border-radius: 60px;
   }
 
 .c-header__inner {
@@ -16269,7 +16277,7 @@ p {
     top: 0;
     right: 0;
     z-index: 0;
-    max-width: 111%;
+    max-width: 70%;
   }
 
 .c-header__bg-two {
@@ -16294,7 +16302,7 @@ p {
   }
 
 .c-header__img-container img {
-      width: 100%;
+      width: 80%;
     }
 
 .c-header__title {
@@ -16317,7 +16325,7 @@ p {
   }
 
 .c-header__resp img {
-      width: 100%;
+      width: 65%;
     }
 
 @media (min-width: 567px) {
@@ -16334,7 +16342,7 @@ p {
     width: 47%;
   }
   .c-header__title {
-    font-size: 3rem;
+    font-size: 3.8rem;
   }
 }
 
@@ -16372,7 +16380,7 @@ p {
     }
 
 .nav__link:hover {
-      color: var(--primary);
+      color: #fff;
       text-decoration: none;
     }
 

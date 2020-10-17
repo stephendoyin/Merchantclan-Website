@@ -27,7 +27,7 @@
       font-size: 1.4rem;
     }
     &:hover {
-      color: var(--primary);
+      color: #fff;
       text-decoration: none;
     }
     &--call-to-action {

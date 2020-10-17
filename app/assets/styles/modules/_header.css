@@ -7,12 +7,13 @@
   overflow: hidden;
 
   &__btn {
-    background: #fff;
+    background: #f2994a;
     color: #3073ac !important;
     font-weight: 700 !important;
     font-size: 0.9rem !important;
     letter-spacing: 0.1rem;
-    padding: 0.8rem 1.6rem;
+    padding: 0.6rem 1.6rem;
+    border-radius: 60px;
   }
   &__inner {
     width: 100%;
@@ -21,7 +22,7 @@
     top: 0;
     right: 0;
     z-index: 0;
-    max-width: 111%;
+    max-width: 70%;
   }
   &__bg-two {
     bottom: 0px;
@@ -41,7 +42,7 @@
   &__img-container {
     width: 100%;
     img {
-      width: 100%;
+      width: 80%;
     }
   }
 
@@ -61,7 +62,7 @@
     top: 55%;
     transform: translateY(-50%);
     img {
-      width: 100%;
+      width: 65%;
     }
   }
 }
@@ -80,6 +81,6 @@
     width: 47%;
   }
   .c-header__title {
-    font-size: 3rem;
+    font-size: 3.8rem;
   }
 }
