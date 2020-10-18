@@ -4,7 +4,9 @@
   }
   &__links {
     color: #3476ad;
-
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
     a {
       margin-left: 2rem;
       color: #3476ad;
@@ -17,7 +19,8 @@
     font-size: 0.83rem;
   }
   &__copy {
-    color: #252878;
+    color: #1b4a71;
+    font-weight: 700;
   }
 }
 

@@ -1,0 +1,42 @@
+.rating {
+  &__icon-container {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+      width: 100%;
+    }
+  }
+  &__title {
+    color: #fff;
+    font-size: 3rem;
+  }
+  &__label {
+    color: #fff;
+    font-size: 0.96rem;
+  }
+  &__item-container {
+    text-align: center;
+    width: 50%;
+  }
+  &__wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 922px) {
+  .rating__wrapper {
+    flex-wrap: nowrap;
+  }
+  .rating__item-container {
+    text-align: left;
+    width: auto;
+  }
+  .rating__icon-container {
+    margin-left: 0;
+    /* margin-right: auto; */
+  }
+}

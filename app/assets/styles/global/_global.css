@@ -75,7 +75,6 @@ p {
 .pattern-img {
   top: 19px;
   left: -3px;
-  max-width: 300px;
 }
 
 .c-title--small {
@@ -98,7 +97,7 @@ p {
 .btn-custom {
   padding: 0.9rem 2rem;
   font-size: 0.95rem;
-  letter-spacing: 0.04rem;
+  /* letter-spacing: 0.04rem; */
   background: #f2994a;
   border: #f2994a;
   border-radius: 60px;
@@ -114,4 +113,36 @@ p {
 
 .logo {
   max-width: 130px;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+.bounce {
+  -webkit-animation: bounce 10s infinite ease-in-out;
+  -o-animation: bounce 10s infinite ease-in-out;
+  -ms-animation: bounce 10s infinite ease-in-out;
+  -moz-animation: bounce 10s infinite ease-in-out;
+  animation: bounce 10s infinite ease-in-out;
 }

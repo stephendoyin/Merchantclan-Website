@@ -75,12 +75,18 @@
     width: 52%;
   }
   .c-header {
-    padding: 15rem 0;
+    padding: 17rem 0;
   }
   .c-header__img-container {
     width: 47%;
   }
   .c-header__title {
     font-size: 3.8rem;
+    span {
+      border-bottom: 22px solid #f2994a;
+      height: 4rem;
+      /* color: #fff; */
+      display: INLINE-BLOCK;
+    }
   }
 }
