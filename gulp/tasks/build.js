@@ -24,6 +24,7 @@ gulp.task("copyGeneralFiles", function () {
   var pathsToCopy = [
     "./app/**/*",
     "!./app/index.html",
+    "!./app/lender.html",
     "!./app/assets/styles/**/*",
     "!./app/assets/scripts/**/*",
     "!./app/temp",
@@ -35,7 +36,7 @@ gulp.task("copyGeneralFiles", function () {
 
 gulp.task("usemin", function () {
   return gulp
-    .src(["./app/index.html"])
+    .src(["./app/index.html", "./app/lender.html"])
     .pipe(
       usemin({
         css: [

@@ -13,4 +13,10 @@
     font-weight: 700;
     line-height: 1.4;
   }
+  &__section {
+    background: url(../../assets/images/strip.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
 }

@@ -146,3 +146,16 @@ p {
   -moz-animation: bounce 10s infinite ease-in-out;
   animation: bounce 10s infinite ease-in-out;
 }
+
+.c-light-pink {
+  background: #ffeaf7;
+}
+.c-light-blue {
+  background: #f0f4f5;
+}
+.c-light-green {
+  background: #e9ffaf;
+}
+.c-light-yellow {
+  background: #ffefc3;
+}

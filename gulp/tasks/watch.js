@@ -22,6 +22,10 @@ task("watch", function (cb) {
     browserSync.reload();
     cb();
   });
+  watch("./app/lender.html", function (cb) {
+    browserSync.reload();
+    cb();
+  });
 
   watch("./app/assets/styles/**/*.css", series("styles", "cssInject"));
 
