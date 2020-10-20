@@ -2,13 +2,12 @@ import { CountUp } from 'countup.js/dist/countUp';
 import "waypoints/lib/noframework.waypoints";
 
 
-
-
 class CountNumberUpAnim{
     constructor(){
+      this.slider = document.getElementById('slider');
+      if(this.slider)
         this.triggerWaypoint();
     }
-
 
     triggerWaypoint(){
       var waypoint = new Waypoint({

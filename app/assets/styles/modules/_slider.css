@@ -1,6 +1,9 @@
 .slider {
   padding: 4.5rem 0;
-  background: #3476ad;
+  background: url(../../assets/images/count-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   &__item {
     border-radius: 6px;
     height: 70px;
@@ -12,9 +15,5 @@
       max-height: 23px;
       width: unset;
     }
-  }
-  .owl-carousel .owl-item img {
-    display: block;
-    width: auto;
   }
 }

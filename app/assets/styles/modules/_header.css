@@ -6,14 +6,18 @@
   mix-blend-mode: normal;
   overflow: hidden;
 
+  &--lender {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+
   &__btn {
-    background: #f2994a;
+    background: #fff;
     color: #3073ac !important;
     font-weight: 700 !important;
     font-size: 0.9rem !important;
     letter-spacing: 0.1rem;
     padding: 0.6rem 1.6rem;
-    border-radius: 60px;
   }
   &__inner {
     width: 100%;
@@ -51,7 +55,7 @@
     color: var(--dark-blue);
   }
   &__text {
-    font-size: 1.125rem;
+    font-size: 1.325rem;
     color: #5a7184;
     font-weight: 400;
     /* opacity: 94%; */
@@ -77,11 +81,14 @@
   .c-header {
     padding: 17rem 0;
   }
+  .c-header--lender {
+    padding: 10rem 0;
+  }
   .c-header__img-container {
     width: 47%;
   }
   .c-header__title {
-    font-size: 3.8rem;
+    font-size: 4rem;
     span {
       border-bottom: 22px solid #f2994a;
       height: 4rem;

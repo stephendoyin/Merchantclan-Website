@@ -15987,8 +15987,9 @@ p {
 }
 
 .pattern-img {
-  top: 19px;
-  left: -3px;
+  top: -60px;
+  left: -45px;
+  max-width: 300px;
 }
 
 .c-title--small {
@@ -16000,7 +16001,7 @@ p {
 
 .c-title {
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 3rem;
   line-height: 3.2rem;
 
   letter-spacing: -0.5px;
@@ -16012,9 +16013,8 @@ p {
   padding: 0.9rem 2rem;
   font-size: 0.95rem;
   /* letter-spacing: 0.04rem; */
-  background: #f2994a;
-  border: #f2994a;
-  border-radius: 60px;
+  background: rgb(255 148 54);
+  border: rgb(255 148 54);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -16072,6 +16072,12 @@ p {
 
 .c-light-yellow {
   background: #ffefc3;
+}
+
+.striped-text {
+  border-bottom: 1.1rem solid #f2994a;
+  height: 3rem;
+  display: INLINE-BLOCK;
 }
 
 /**
@@ -16303,14 +16309,18 @@ p {
   overflow: hidden;
 }
 
+.c-header--lender {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+
 .c-header__btn {
-    background: #f2994a;
+    background: #fff;
     color: #3073ac !important;
     font-weight: 700 !important;
     font-size: 0.9rem !important;
     letter-spacing: 0.1rem;
     padding: 0.6rem 1.6rem;
-    border-radius: 60px;
   }
 
 .c-header__inner {
@@ -16355,7 +16365,7 @@ p {
   }
 
 .c-header__text {
-    font-size: 1.125rem;
+    font-size: 1.325rem;
     color: #5a7184;
     font-weight: 400;
     /* opacity: 94%; */
@@ -16382,11 +16392,14 @@ p {
   .c-header {
     padding: 17rem 0;
   }
+  .c-header--lender {
+    padding: 10rem 0;
+  }
   .c-header__img-container {
     width: 47%;
   }
   .c-header__title {
-    font-size: 3.8rem;
+    font-size: 4rem;
   }
     .c-header__title span {
       border-bottom: 22px solid #f2994a;
@@ -16447,7 +16460,16 @@ p {
         color: #ffffff;
       }
 
+.nav--active .nav__link {
+      color: var(--primary) !important;
+    }
+
 .nav.bg-white .c-header__btn {
+    background: #2f73ab !important;
+    color: #fff !important;
+  }
+
+.nav--active .c-header__btn {
     background: #2f73ab !important;
     color: #fff !important;
   }
@@ -16638,7 +16660,7 @@ p {
   }
 
 .works__section--lenders {
-      background: #fff;
+      background: #f0f5f9 !important;
     }
 
 .works__item {
@@ -16705,7 +16727,10 @@ p {
 
 .slider {
   padding: 4.5rem 0;
-  background: #3476ad;
+  background: url(../../assets/images/count-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .slider__item {
@@ -16721,11 +16746,6 @@ p {
       max-height: 23px;
       width: unset;
     }
-
-.slider .owl-carousel .owl-item img {
-    display: block;
-    width: auto;
-  }
 
 .rating__icon-container {
     height: 40px;
@@ -16774,7 +16794,7 @@ p {
 }
 
 .footer__container {
-    padding: 5rem 0 2rem 0;
+    padding: 5rem 0 5rem 0;
   }
 
 .footer__links {

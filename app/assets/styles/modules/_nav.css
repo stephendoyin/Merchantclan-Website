@@ -43,7 +43,18 @@
     }
   }
 
+  &--active {
+    .nav__link {
+      color: var(--primary) !important;
+    }
+  }
+
   &.bg-white .c-header__btn {
+    background: #2f73ab !important;
+    color: #fff !important;
+  }
+
+  &--active .c-header__btn {
     background: #2f73ab !important;
     color: #fff !important;
   }

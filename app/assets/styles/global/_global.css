@@ -73,8 +73,9 @@ p {
 }
 
 .pattern-img {
-  top: 19px;
-  left: -3px;
+  top: -60px;
+  left: -45px;
+  max-width: 300px;
 }
 
 .c-title--small {
@@ -86,7 +87,7 @@ p {
 
 .c-title {
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 3rem;
   line-height: 3.2rem;
 
   letter-spacing: -0.5px;
@@ -98,9 +99,8 @@ p {
   padding: 0.9rem 2rem;
   font-size: 0.95rem;
   /* letter-spacing: 0.04rem; */
-  background: #f2994a;
-  border: #f2994a;
-  border-radius: 60px;
+  background: rgb(255 148 54);
+  border: rgb(255 148 54);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -158,4 +158,9 @@ p {
 }
 .c-light-yellow {
   background: #ffefc3;
+}
+.striped-text {
+  border-bottom: 1.1rem solid #f2994a;
+  height: 3rem;
+  display: INLINE-BLOCK;
 }
