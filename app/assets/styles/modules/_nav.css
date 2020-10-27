@@ -74,7 +74,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding: 1rem 0;
+    padding: 2.5rem 0;
     z-index: 100;
     opacity: 0.97;
 
@@ -95,6 +95,15 @@
       width: 100%;
       display: block;
       background: white;
+      &--colored {
+        background: #2f73ab;
+        &::before {
+          background: #2f73ab !important;
+        }
+        &::after {
+          background: #2f73ab !important;
+        }
+      }
 
       &::before {
         content: "";
@@ -201,5 +210,8 @@
   }
   .nav__link {
     display: inline-block;
+  }
+  .nav--sticky {
+    padding: 1.3rem 0;
   }
 }
