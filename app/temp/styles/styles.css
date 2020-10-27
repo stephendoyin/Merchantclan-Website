@@ -16363,7 +16363,7 @@ p {
   }
 
 .c-header__img-container img {
-      width: 100%;
+      width: 70%;
     }
 
 .c-header__title {
@@ -16386,7 +16386,7 @@ p {
   }
 
 .c-header__resp img {
-      width: 65%;
+      width: 70%;
     }
 
 @media (min-width: 768px) {
@@ -16501,7 +16501,7 @@ p {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 2.5rem 0;
+    padding: 2rem 0;
     z-index: 100;
     opacity: 0.97;
   }
