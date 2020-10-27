@@ -16389,12 +16389,6 @@ p {
       width: 65%;
     }
 
-@media (min-width: 567px) {
-  .c-header__img-container img {
-    width: 80%;
-  }
-}
-
 @media (min-width: 768px) {
   .c-header__text-container {
     width: 52%;
