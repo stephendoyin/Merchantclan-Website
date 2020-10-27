@@ -16408,6 +16408,7 @@ p {
   .c-header__img-container {
     width: 47%;
   }
+
   .c-header__title {
     font-size: 4rem;
   }
@@ -16417,6 +16418,12 @@ p {
       /* color: #fff; */
       display: INLINE-BLOCK;
     }
+}
+
+@media (min-width: 922px) {
+  .c-header__img-container img {
+    width: 65%;
+  }
 }
 
 .nav {
